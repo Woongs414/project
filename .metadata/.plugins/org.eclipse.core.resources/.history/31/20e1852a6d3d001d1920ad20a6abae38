@@ -1,5 +1,0 @@
-package com.spring.ec.kakao.service;
-
-public class KakaoServiceImpl implements KakaoService {
-
-}

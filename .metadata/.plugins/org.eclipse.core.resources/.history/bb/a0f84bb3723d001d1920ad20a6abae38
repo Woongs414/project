@@ -1,5 +1,0 @@
-package com.spring.ec.kakao.dao;
-
-public interface KakaoDAO {
-
-}

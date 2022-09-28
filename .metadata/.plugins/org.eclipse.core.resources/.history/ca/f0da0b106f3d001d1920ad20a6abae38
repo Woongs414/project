@@ -1,9 +1,0 @@
-package com.spring.ec.kakao.controller;
-
-import org.springframework.web.bind.annotation.RequestParam;
-
-public interface KakaoController {
-
-	 public String kakaologin(@RequestParam(value = "code", required = false) String code) throws Exception;
-	
-}
