@@ -1,0 +1,23 @@
+package com.spring.ec.user.vo;
+
+import java.sql.Date;
+
+import org.springframework.stereotype.Component;
+
+@Component("userMemberVO")
+public class MemberVO {
+	private int user_no;
+	private String user_id;
+	private String user_pwd;
+	private String pwd_ck;
+	private String tel;
+	private String user_name;
+	private String user_email;
+	private Date birth_yy;
+	private Date birth_mm;
+	private Date birth_dd;
+	private char gender;
+
+
+
+}

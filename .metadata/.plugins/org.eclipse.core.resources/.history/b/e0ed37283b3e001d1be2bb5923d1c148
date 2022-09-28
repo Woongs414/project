@@ -1,0 +1,32 @@
+li a{
+	text-decoration:none;
+	color:white;
+}
+li a:hover{
+	color:yellow;
+	text-decoration:none;
+}
+#wrapper ul {
+	list-style:none; /*불린기호없앰*/
+	text-align:center; /*좌우 중앙으로 배치 */
+	background:#248ddb;
+}
+#wrapper ul li{
+	display:inline-block;
+	width:150px;
+	height:50px;
+	padding:10px 0;
+	margin:10px 0;
+	margin-right:80px;
+	font-weight:bold;
+	vertical-align:middle; 
+}
+.content_header {
+	text-align:center;
+	
+}
+.content_header img{
+	margin-right:50px;
+	border-bottom:1px solid black;
+}
+

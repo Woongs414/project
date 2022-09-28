@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=ec/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.spring.ec.seller.controller{SellerController.java[SellerController" modifiers="513" timestamp="1664184591726"/>
+    <typeInfo handle="=ec/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.spring.ec.seller.dao{SellerDAO.java[SellerDAO" modifiers="513" timestamp="1663555344555"/>
+    <typeInfo handle="=ec/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.spring.ec.kakao.service{KakaoService.java[KakaoService" modifiers="513" timestamp="1664177510002"/>
+</typeInfoHistroy>

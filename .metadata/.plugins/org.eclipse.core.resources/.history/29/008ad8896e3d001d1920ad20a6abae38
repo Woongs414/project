@@ -1,0 +1,7 @@
+package com.spring.ec.kakao.controller;
+
+public interface KakaoController {
+
+	String kakaologin(String code) throws Exception;
+	
+}

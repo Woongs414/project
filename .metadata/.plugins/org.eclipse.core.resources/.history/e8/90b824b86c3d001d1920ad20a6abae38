@@ -1,0 +1,5 @@
+package com.spring.ec.kakao.controller;
+
+public class KakaoControllerImpl {
+
+}

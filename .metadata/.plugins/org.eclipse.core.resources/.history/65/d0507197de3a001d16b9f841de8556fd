@@ -1,0 +1,29 @@
+package com.spring.ec.kakao;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+public class KakaoControllerImpl implements KaKaoController {
+	// kakao로그인 요청을 처리한다.
+		@RequestMapping("/kakao-login")
+		public String loginWithKakao(KakaoLoginForm form){
+			log.info("카카오 로그인 인증정보:"+ form);
+			
+			User user = User.builder()
+						.email(form.getEmail())
+						.name(form.getName())
+						.img(form.getImg())
+						.loginType(KAKAO_LOGIN_TYPE)
+						.build();
+			
+			User savedUser = userService.loginWithKakao(user);
+			
+			// 저장된 회원정보가 없으면 전달받은 회원정보를 세션에 저장, 있으면 기존 정보 저장.
+			if(savedUser != null) {
+				SessionUtils.addAttribute("LOGIN_USER", savedUser);
+			}else {
+				SessionUtils.addAttribute("LOGIN_USER", user);
+			}
+			
+			return "redirect:/";
+		}
+}
